@@ -14,7 +14,7 @@ public class CommonPage<T> {
     private Integer pageSize;
     private Integer totalPage;
     private Long total;
-    private List<T> list;
+    private List<T>   list;
 
     /**
      * 将PageHelper分页后的list转为分页信息
