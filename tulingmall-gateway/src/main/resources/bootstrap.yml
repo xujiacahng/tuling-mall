@@ -4,7 +4,7 @@ spring:
   cloud:
       nacos:
         config:
-          server-addr: 192.168.86.16:8848 #配置中心的地址
+          server-addr: 192.168.50.2:8848 #配置中心的地址
           file-extension: yml #配置文件结尾的配置
           shared-dataids: tulingmall-nacos.yml #图灵商城公共配置
           refreshable-dataids: tulingmall-nacos.yml
