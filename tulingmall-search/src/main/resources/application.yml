@@ -2,7 +2,7 @@ server:
   port: 8085
 spring:
   datasource:
-    url: jdbc:mysql://192.168.50.2:3306/micromall?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://ubuntu2004.wsl:3306/micromall?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
     druid:
@@ -18,7 +18,7 @@ spring:
     elasticsearch:
       repositories:
         enabled: true
-      cluster-nodes: 192.168.50.2:9300
+      cluster-nodes: ubuntu2004.wsl:9300
       cluster-name: elasticsearch
 mybatis:
   mapper-locations:
