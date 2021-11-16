@@ -4,7 +4,7 @@ spring:
   application:
       name: tulingmall-canal
   redis:
-    host: ubuntu2004.wsl # Redis服务器地址
+    host: 192.168.50.2 # Redis服务器地址
     database: 0 # Redis数据库索引（默认为0）
     port: 6379 # Redis服务器连接端口
     password:  # Redis服务器连接密码（默认为空）
@@ -18,7 +18,7 @@ spring:
 
 #rocketmq配置
 rocketmq:
-  name-server: ubuntu2004.wsl:9876 #连接超时时间
+  name-server: 192.168.50.2:9876 #连接超时时间
   producer:
     send-message-timeout: 30000 #发送消息超时时间
   canal:
