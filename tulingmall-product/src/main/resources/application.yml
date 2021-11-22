@@ -19,7 +19,7 @@ spring:
   cloud:
     nacos:
       server-addr:
-      discovery:ubuntu2004.wsl:8848
+      discovery: ubuntu2004.wsl:8848
 mybatis:
   mapper-locations:
     - classpath:dao/*.xml
