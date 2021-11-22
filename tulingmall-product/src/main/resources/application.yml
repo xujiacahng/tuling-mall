@@ -18,8 +18,9 @@ spring:
     name: tulingmall-product
   cloud:
     nacos:
-      server-addr:
-      discovery: ubuntu2004.wsl:8848
+      discovery:
+        server-addr: ubuntu2004.wsl:8848
+
 mybatis:
   mapper-locations:
     - classpath:dao/*.xml
