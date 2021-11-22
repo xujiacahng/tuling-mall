@@ -39,7 +39,7 @@
         FROM
         sms_flash_promotion sp
         LEFT JOIN sms_flash_promotion_product_relation sfp ON sfp.flash_promotion_id=sp.id
-        WHERE NOW()>=sp.start_date AND sp.end_date>NOW() and status=1
+        WHERE NOW()>=sp.start_date AND sp.end_date>NOW() and sp.status=1
         <if test="pid != null">
             AND sfp.product_id=#{pid}
         </if>
