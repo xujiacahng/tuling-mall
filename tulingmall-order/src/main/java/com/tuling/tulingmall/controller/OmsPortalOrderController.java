@@ -27,7 +27,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
-import sun.misc.BASE64Encoder;
+
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
