@@ -195,6 +195,17 @@
 			<version>1.0.0</version>
 		</dependency>-->
 
+		<!-- 开启springboot的应用监控 -->
+		<dependency>
+		 <groupId>org.springframework.boot</groupId>
+		<artifactId>spring‐boot‐starter‐actuator</artifactId>
+		</dependency>
+		<!-- 增加prometheus整合 -->
+		<dependency>
+		<groupId>io.micrometer</groupId>
+		<artifactId>micrometer‐registry‐prometheus</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>

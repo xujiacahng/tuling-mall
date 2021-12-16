@@ -82,6 +82,7 @@ public class PmsProductServiceImpl implements PmsProductService {
      * 获取商品详情信息
      * @param id 产品ID
      */
+    @Override
     public PmsProductParam getProductInfo(Long id){
         PmsProductParam productInfo = null;
         productInfo = cache.get(RedisKeyPrefixConst.PRODUCT_DETAIL_CACHE + id);
