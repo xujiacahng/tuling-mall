@@ -2,7 +2,7 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: ubuntu2004.wsl:8848
+        server-addr: 172.31.81.251:8848
         file-extension: yml
         shared-dataids: tulingmall-db-common.yml,tulingmall-nacos.yml
         refreshable-dataids: tulingmall-db-common.yml,tulingmall-nacos.yml
